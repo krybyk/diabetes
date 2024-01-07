@@ -9,8 +9,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report, roc_auc_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
-from flask import Flask, render_template, request
-import joblib
 import streamlit as st
 
 st.title("Diyabet Tahmin")
